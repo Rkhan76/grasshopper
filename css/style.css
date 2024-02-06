@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Section for upper notice */
+
+.notice p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    background-color: #45c14e;
+}
+
+/* Section for navbar */
+
+.navbar {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+    font-size: larger;
+
+}
+.navbar .flexbox-container {
+    width: 97%;
+    display: flex;
+    gap: 42px;
+    flex-flow: row wrap;
+    align-items: center;
+    
+}
+.navbar .flexbox-container div{
+    opacity: 0.6;
+}
+.navbar .flexbox-container div:nth-child(1){
+    padding-left: 40px;
+    opacity: 1;
+}
+.sign-in{
+    width: 7%;
+    opacity: 0.6;
+}
+
+/* Section for introduction page */
+.intro-page{
+    width: 100%;
+}
+
+.intro-part1{
+    font-size:xx-large;
+    margin-top: 150px;
+    margin-left: 220px;
+    margin-bottom: 150px;
+    opacity: 0.9;
+}
+
+.intro-part1 p{
+    margin-top: 15px;
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+.intro-page .flexbox-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-image: url('../images/hero__background-hills.svg');
+    background-size: cover;
+}
+
+.intro-page .flexbox-container div:nth-child(2){
+    margin-left: -40px;
+}
+.intro-page .flexbox-container div:nth-child(3){
+    z-index: 3;
+    margin-left: -153px;
+    transform: translate(350px,11px);
+}
+.intro-page .flexbox-container div:nth-child(4){
+    z-index: 5;
+    transform: translate(47px, 47px);
+}
+.intro-page .flexbox-container div:nth-child(5){
+    align-self:flex-start;
+    z-index: 2;
+    margin-left: -359px;
+    transform: translateX(-25px);
+}
+.intro-page .flexbox-container div:nth-child(6){
+    transform: translate(-20px,-225px);
+    z-index: 4;
+    margin: -95px;
+}
+.intro-page .flexbox-container div:nth-child(7){
+    z-index: 1;
+    margin-left: -204px;
+    transform: translate(-50px, -40px);
+}
+
+
+
+/* section for feature page*/
+
+.features{
+    background-color: #dff8eb;
+    width: 100%;
+    padding-top: 58px;
+    padding-bottom: 100px;
+}
+.feature-heading{
+    text-align: center;
+    font-size: 2rem;
+    color: #00324b;
+}
+.feature-flex{
+    padding-left: 10rem;
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.features > .feature-flex >.item{
+    width: 25%;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    text-align: center;
+    color: #002c43;
+    letter-spacing: 0.7px;
+}
+.features > .feature-flex >.item > p{
+    padding-top: 30px;
+}
+
+
+/* Section for feedback*/
+
+.feedback{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+.feedback > .flexbox-container{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 15px;
+}
+.feedback > .flexbox-container > .item{
+    width: 50%;
+    border:  solid grey;
+    border-width: .1px;
+    width: 50%;
+}
+
+/* Section for footer*/
+
+footer{
+    background-color:#00324b;
+    padding: 50px 100px;
+}
+.footer .flexbox-container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    line-height: 2;
+}
+.footer > .flexbox-container > .item > a{ 
+    text-decoration: none;
+}
+
+footer a{
+    color: #fcfcfc;
+}
